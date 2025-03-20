@@ -2,7 +2,7 @@ import { useState } from "react";
 
 type Props = {  
   
-  setInput: React.Dispatch<React.SetStateAction<string>>;  
+  setInput: React.Dispatch<React.SetStateAction<string>>;
   inputName: string;
   inputType: string;
   inputPlaceholder: string;
